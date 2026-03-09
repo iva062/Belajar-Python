@@ -1,4 +1,5 @@
 '''PERTEMUAN 2 (Flowchart, pseudecode, input, output, tipe data, dan operator)'''
+print('PERTEMUAN 2')
 
 #FLOWCHART
 #PSEUDECODE
@@ -49,10 +50,8 @@ END IF
 OUTPUT hasil
 '''
 
-#INPUT
-'''adalah proses memasukan data scr manual oleh user
-
-contoh 1:'''
+#INPUT, adalah proses memasukan data scr manual oleh user
+'''contoh 1:'''
 nama = input("Masukan nama anda: ")
 nama = int(input("Masukkan umur anda: "))
 '''contoh 2'''
@@ -60,18 +59,19 @@ umur = int(input("masukkan umur anda: ")) #nilai dlm variabel diubah ke integer 
 umur = umur + 10
 print("umur anda 10 tahun lagi adalah: ", umur)
 
-#OUTPUT
-'''adalah menampilkan suatu teks, angka, atau variabel dgn perintah print() dalam python
-
-contoh 1:'''
+#OUTPUT, menampilkan suatu teks, angka, atau variabel dgn perintah print() dalam python
+'''contoh 1:'''
 print("halo, iva")
 '''conton 2:'''
 nama = "James,"
 matkul = "Algoritma Pemrograman"
 bahasa = "Python"
 print(nama, "selamat Belajar", matkul, "dengan bahasa", bahasa, "ya!")
+print()
 
 #latihan
+print('Latihan pertemuan kedua')
+
 nama = input("Masukkan nama anda: ")
 tanggal_lahir = input("Masukkan tanggal lahir anda: ")
 hobi = input("Masukkan hobi anda: ")
@@ -119,6 +119,7 @@ print()
 
 '''PERTEMUAN 3
 variabel, statement, expression, dan list'''
+print('PERTEMUAN 3')
 
 #KONSTANTA
 '''berupa teks, angka, dan string yg nilainya tdk berubah
@@ -140,11 +141,11 @@ print("nama saya: ", nama1)
 2. variabel bersifat dinamis, tdk perlu nyebut tipe data saat membuatnya.
 3. nama variabel bersifat case sensitive, huruf besar kecil dibedakan.
 4. tdk boleh mengandung kata kunci yg sdh ada di python (reseerve word) sprti if, while, dll
-5. nama variabel diawali a-z dan 0-9 serta spasi dgn garis bawah (_)
-
-Latihan'''
+5. nama variabel diawali a-z dan 0-9 serta spasi dgn garis bawah (_)'''
 print()
-print('latihan pertemuan kedua')
+
+'''Latihan'''
+print('latihan pertemuan ketiga 1')
 
 jari_jari =7
 PI = 3.14
@@ -195,9 +196,11 @@ print('\nProgram selesai!')
 #EXPRESSION
 '''adalah unit sintaksis yg menghasilkan sebuah nilai saat dievaluasi.
 1. numeric expression, +, -, /, //(pembagian habis dibulatkan, *(perkalian), **(perpangkatan), %(sisa bagi)
-2. operator predence(aturan prioritas): tanda kurung, pangkat, perkalian, pembagian, kiri ke kanan.
+2. operator predence(aturan prioritas): tanda kurung, pangkat, perkalian, pembagian, kiri ke kanan.'''
+print()
 
-LATIHAN'''
+'''LATIHAN'''
+print('latihan pertemuan ketiga 2')
 satu = 2+3 * 4
 print(satu)
 dua = 2 ** 3
@@ -265,7 +268,7 @@ print(cortis[:1]) #nilai dari awal sampai sblm 1
 
 LATIHAN'''
 print()
-print('latihan pertemuan ketiga')
+print('latihan pertemuan ketiga 3')
 
 teman = ['siska', 'cika', 'taca', 'bening', 'valen'] #no1
 print(teman[0])
@@ -280,9 +283,10 @@ print(cortis.remove['budi']) #no7
 print(cortis[0:4]) #no8
 print()
 
-'''PERTEMUAN 4 (conditional statement)'''
+'''PERTEMUAN 4 (conditional statement)
+conditional statement digunakan utk mengeksekusi blok kode tertentu pada kondisi tertentu. seperti if, elif, else, nested if.'''
+print('PERTEMUAN KEEMPAT')
 
-'''digunakan utk mengeksekusi blok kode tertentu pada kondisi tertentu. seperti if, elif, else'''
 #OPERATOR PERBANDINGAN, utk membandingkan 2 niai dan menghasilkan nilai true/false
 x = 5
 y = 3
@@ -298,7 +302,7 @@ print(x>y and x<y)
 print(x>y or x<y)
 print((not x>3 and x<10))
 
-# IF STATEMENT, akan mengeksekusi jika kondisi bernilai true, mengandalkan indentasi(spasi)
+#IF STATEMENT, akan mengeksekusi jika kondisi bernilai true, mengandalkan indentasi(spasi)
 a=22
 b=11
 if b > a: print('b lebih besar dari a')
@@ -306,8 +310,8 @@ if b > a: print('b lebih besar dari a')
 bilangan = float(input('masukkan suatu bilangan: '))
 if bilangan > 0:
     print('bilangan: ', bilangan, 'adalah bilangan positif.')
-elif bilangan < 0:
-    print('bilangan: ', bilangan, 'adalah bilangan negatif.')
 else:
-    print('bilangan tersebut adalah bilangan 0')
+    print('bilangan tersebut adalah bilangan negatif/nol')
+
+#IF ELSE STATEMENT, 
 
